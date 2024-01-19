@@ -1,0 +1,1725 @@
+@media screen and (max-width: 1900px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .navigation {
+    max-width: 90%;
+    font-size: 1.8rem;
+  }
+
+  .hero-title {
+    font-size: 8rem;
+  }
+
+  .hero-services-title {
+    font-size: 5rem;
+  }
+
+  .services-cards {
+    justify-content: center;
+    grid-template-columns: 33vw 33vw 33vw;
+  }
+
+  .service-card img {
+    object-fit: cover;
+    width: 500px;
+  }
+
+  .about-kaci {
+    grid-template-columns: 116rem 47rem;
+  }
+
+  .exp {
+    justify-content: center;
+    grid-template-columns: 40vw 40vw;
+    gap: 10rem;
+    padding: 6rem 5rem;
+  }
+
+  .exp-img {
+    width: 70rem;
+    height: auto;
+  }
+
+  .patients-review {
+    grid-template-rows: 80rem;
+  }
+
+  .patients-text {
+    margin-bottom: 7rem;
+  }
+
+  .working-hours {
+    width: 50rem;
+  }
+
+  .overlay {
+    height: 85vh;
+    background-size: cover;
+  }
+
+  .overlay-pause {
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay-elm {
+    width: 100%;
+    height: 100%;
+  }
+
+  .welcome {
+    transform: translate(-3rem, -10rem);
+    width: 65rem;
+    height: 25rem;
+  }
+
+  .welcome-title {
+    font-size: 1.6rem;
+  }
+
+  .why-us {
+    gap: 1rem;
+  }
+
+  .why-us img {
+    margin-left: 3rem;
+  }
+
+  .expertise {
+    gap: 10rem;
+  }
+
+  .about-us-contact {
+    gap: 0;
+  }
+
+  .blog-p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    max-width: 90vw;
+  }
+
+  .blog-title-2 {
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
+  .blog-title-2 span {
+    color: #00529a;
+  }
+
+  .blog-list {
+    list-style: circle;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 4rem;
+  }
+
+  .blog-list li {
+    margin-bottom: 1rem;
+  }
+
+  .blog-text-big {
+    grid-column: 1/-1;
+    margin-left: 10rem;
+  }
+
+  .blog-content {
+    display: grid;
+  }
+
+  .blog-about {
+    grid-template-columns: 100rem 55rem;
+    grid-template-rows: 5rem 1fr;
+  }
+
+  .blog-aside {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .blog-img {
+    height: 38.6rem;
+  }
+
+  .rec-article {
+    grid-template-columns: 90rem 50rem;
+  }
+
+  .article-img {
+    width: 90rem;
+  }
+
+  .article-cards img {
+    width: 50rem;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .about-kaci {
+    grid-template-columns: 100rem 55rem;
+  }
+
+  .patients-review {
+    grid-template-columns: 55rem 75rem;
+  }
+
+  .services {
+    grid-template-columns: 130rem;
+  }
+
+  .services-cards {
+    grid-template-columns: 70rem 70rem;
+    gap: 7rem;
+  }
+
+  .service-card {
+    padding-left: 7rem;
+  }
+
+  .service-card img {
+    width: 59rem;
+  }
+
+  .sickness-reviews {
+    grid-template-columns: 40rem 100rem;
+    margin-bottom: 8rem;
+  }
+
+  .exp {
+    grid-template-columns: 60rem 60rem;
+    gap: 15rem;
+    padding: 6rem 5rem;
+    margin-left: 5rem;
+  }
+
+  .exp-img {
+    width: 60rem;
+    height: auto;
+  }
+
+  .overlay {
+    height: 75vh;
+    background-size: cover;
+  }
+
+  .overlay-pause {
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay-elm {
+    width: 100%;
+    height: 100%;
+  }
+
+  .welcome {
+    transform: translate(-3rem, -10rem);
+    width: 65rem;
+    height: 25rem;
+  }
+
+  .welcome-title {
+    font-size: 1.5rem;
+  }
+
+  .why-us {
+    gap: 1rem;
+  }
+
+  .why-us img {
+    margin-left: 3rem;
+    width: 35%;
+  }
+
+  .why-us-item img {
+    width: 10%;
+  }
+
+  .expertise {
+    gap: 15rem;
+  }
+
+  .expertise img {
+    width: 50%;
+  }
+
+  .about-us-contact {
+    gap: 0;
+  }
+
+  .contact-form-title {
+    padding: 7rem;
+  }
+
+  .about-form {
+    grid-template-columns: 25rem 25rem;
+  }
+
+  .rec-article {
+    grid-template-columns: 70rem 30rem;
+  }
+
+  .article-img {
+    width: 75rem;
+  }
+
+  .article-cards img {
+    width: 40rem;
+  }
+
+  .last-cards {
+    gap: 2rem;
+  }
+
+  .last-card {
+    width: 40rem;
+  }
+
+  .last-cards img {
+    width: 60rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .image-cropper {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .detailed-sick {
+    padding: 10rem;
+  }
+
+  .info-sick h1 {
+    font-size: 3.7rem;
+  }
+
+  .info-sick p {
+    font-size: 1.5rem;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .navigation {
+    max-width: 90%;
+    font-size: 1.4rem;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+    max-width: 60rem;
+  }
+
+  .logo-img {
+    height: 3rem;
+  }
+
+  .hero-experience {
+    padding: 2.4rem 7rem;
+    font-size: 1.8rem;
+  }
+
+  .about-title {
+    font-size: 3rem;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .about-kaci {
+    grid-template-columns: 82rem 35rem;
+  }
+
+  .clinique-img {
+    height: 28.6rem;
+    width: 75rem;
+  }
+
+  .about-desc {
+    margin-left: 5rem;
+  }
+
+  .about-desc-text {
+    max-width: 75rem;
+  }
+
+  .about-container {
+    width: 28rem;
+    height: 28rem;
+  }
+
+  .aside-logo {
+    width: 30%;
+  }
+
+  .dr-kaci-name {
+    font-size: 2.4rem;
+  }
+
+  .cta-aside:visited,
+  .cta-aside:link {
+    padding: 1.8rem 2rem;
+    font-size: 1.4rem;
+  }
+
+  .find-us {
+    padding: 0 3.4rem;
+  }
+
+  .patients-review {
+    grid-template-columns: 39rem 72rem;
+  }
+
+  .working-hours {
+    padding: 4rem 6rem;
+    width: 40rem;
+  }
+
+  .hours {
+    font-size: 0.8rem;
+  }
+
+  .review {
+    font-size: 1.2rem;
+  }
+
+  .form {
+    padding: 5rem 4rem;
+  }
+
+  .contact-form {
+    grid-template-columns: 40rem 60rem;
+    grid-template-rows: 65rem;
+    padding: 5rem 0rem;
+    gap: 10rem;
+  }
+
+  input {
+    padding: 1rem 2.3rem;
+  }
+
+  select {
+    padding: 0.8rem 0.1rem;
+  }
+
+  textarea {
+    padding: 0.2rem;
+    resize: both;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form-title {
+    padding: 6rem;
+  }
+
+  .info-title {
+    font-size: 3rem;
+  }
+
+  .review-title {
+    font-size: 2.5rem;
+  }
+
+  .form-title-desc {
+    font-size: 1.5rem;
+  }
+
+  .find-us-form {
+    gap: 3rem;
+  }
+
+  .sickness-reviews {
+    grid-template-columns: 30rem 60rem;
+  }
+
+  .sick-desc {
+    padding: 2rem 1rem;
+  }
+
+  .baloon {
+    width: 90%;
+    transform: translate(0rem);
+  }
+
+  .symp {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .footer-nav div {
+    margin: 4rem 0;
+    font-size: 1.4rem;
+  }
+
+  .logo-footer {
+    height: 30%;
+  }
+
+  .footer-nav div h3,
+  .footer-nav li {
+    margin-bottom: 1.3rem;
+  }
+
+  .services-cards {
+    grid-template-columns: 53rem 53rem;
+    gap: 0;
+    row-gap: 0rem;
+    justify-content: center;
+  }
+
+  .service-card {
+    padding-bottom: 1rem;
+  }
+
+  .service-card img {
+    width: 40rem;
+    height: 18rem;
+  }
+
+  .card-title h2 {
+    font-size: 1.6rem;
+  }
+
+  textarea {
+    max-width: 95%;
+  }
+
+  .exp {
+    grid-template-columns: 35rem 35rem;
+    gap: 12rem;
+    padding: 6rem 5rem;
+    margin-left: 5rem;
+  }
+
+  .exp-img {
+    width: 40rem;
+    height: auto;
+  }
+
+  .overlay {
+    height: 55vh;
+    background-size: cover;
+  }
+
+  .overlay-pause {
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay-elm {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-welcome {
+    font-size: 1.2rem;
+    gap: 2rem;
+    padding: 1rem 3rem;
+  }
+
+  .welcome {
+    transform: translate(-3rem, -8rem);
+    width: 50rem;
+    height: 22rem;
+  }
+
+  .welcome-title {
+    font-size: 1.2rem;
+  }
+
+  .welc-circ {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .circle-about {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .patients-num {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .op-done {
+    font-size: 1.2rem;
+  }
+
+  .why-us {
+    gap: 0rem;
+  }
+
+  .why-us img {
+    margin-left: 3rem;
+    width: 30%;
+  }
+
+  .why-us h1 {
+    font-size: 2.5rem;
+  }
+
+  .why-us-item {
+    padding: 1.5rem 1rem;
+  }
+
+  .item-text {
+    font-size: 1.5rem;
+  }
+
+  .expertise {
+    gap: 10rem;
+  }
+
+  .expertise img {
+    width: 50%;
+  }
+
+  .expertise p {
+    font-size: 2.5rem;
+    max-width: 40rem;
+  }
+
+  .article-cards img {
+    width: 35rem;
+  }
+
+  .rec-article {
+    grid-template-columns: 65rem 30rem;
+    column-gap: 4rem;
+  }
+
+  .article-img {
+    width: 65rem;
+  }
+
+  .article-cards img {
+    width: 40rem;
+  }
+
+  .article-card {
+    width: 25rem;
+  }
+
+  .last-cards {
+    gap: 8rem;
+  }
+
+  .last-card {
+    width: 25rem;
+  }
+
+  .last-cards img {
+    width: 30rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .navigation {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    overflow: hidden;
+    background-color: #fefdfd;
+    position: relative;
+  }
+
+  #mobile-links {
+    display: none;
+  }
+
+  #mobile-links a {
+    border: #00529a 0.4px solid;
+  }
+
+  .mobile-nav a {
+    color: #00529a;
+    padding: 1.4rem 1.6rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    text-transform: capitalize;
+    align-self: center;
+  }
+
+  .mobile-nav a.icon {
+    background: #fefdfd;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .mobile-nav i {
+    font-size: 3rem;
+  }
+
+  .mobile-nav img {
+    width: 13rem;
+  }
+
+  #mobile-links a:hover,
+  #mobile-links a:focus {
+    background-color: #00529a;
+    color: #fefdfd;
+  }
+
+  #mobile-nav-info {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    padding: 9.6rem 0.8rem;
+  }
+
+  #mobile-nav-info p {
+    font-size: 1.1rem;
+    margin-bottom: 0rem;
+    color: #00529a;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+
+  #mobile-nav-info img {
+    width: 3rem;
+  }
+
+  .cta-mobile-nav {
+    color: #fefdfd !important;
+    width: 30rem;
+    margin: 10rem 0 20rem 0rem;
+    border-radius: 2rem;
+    padding: 2rem 2rem !important;
+    text-align: center;
+    background-color: #00529a;
+  }
+
+  #mobile-nav-info div {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-title {
+    display: none;
+  }
+
+  .hero-elements {
+    gap: 1rem;
+  }
+
+  .glasses {
+    margin-top: 5rem;
+    width: 95%;
+  }
+
+  .btn-cta:link,
+  .btn-cta:visited {
+    padding: 1.2rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50rem;
+    font-weight: 700;
+  }
+
+  .logo-img {
+    height: 3rem;
+  }
+
+  .hero-services div {
+    height: 15vh;
+  }
+
+  @keyframes size {
+    0% {
+      height: 30rem;
+    }
+
+    100% {
+      height: 10rem;
+    }
+  }
+
+  .hero-services-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .title-container h2 {
+    margin-bottom: 2rem;
+  }
+
+  .exp {
+    display: none;
+    grid-template-columns: 35rem;
+    margin-left: 2rem;
+    padding: 3rem 0;
+  }
+
+  .exp-num {
+    gap: 2rem;
+  }
+
+  .exp-num img {
+    width: 5rem;
+    height: 3rem;
+  }
+
+  .exp-img {
+    width: 35rem;
+    height: auto;
+  }
+
+  .exp-detail h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-experience {
+    margin-top: 2rem;
+    font-weight: 600;
+    padding: 1.2rem 2rem;
+    font-size: 0.7rem;
+  }
+
+  .hero-experience span {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .flex--div {
+    gap: 0.2rem;
+  }
+
+  .services {
+    grid-template-rows: 12rem 15rem 1fr;
+    grid-template-columns: 90vw;
+  }
+
+  .services-title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .services-title {
+    font-size: 1.6rem;
+  }
+
+  .services-text {
+    font-size: 1.2rem;
+    max-width: 40rem;
+    text-align: left;
+    justify-self: center;
+  }
+
+  .swipe-zone {
+    grid-template-columns: repeat(12, 65vw);
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    min-height: 10vh;
+  }
+
+  .service-item {
+    margin: 2rem 0.5rem;
+    width: 207px;
+    height: 85px;
+    background-color: #fefdfd;
+  }
+
+  .circle {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .item-text:visited,
+  .item-text:link {
+    font-size: 1.4rem;
+  }
+
+  .about-kaci {
+    grid-template-rows: 10vh 5vh 1fr;
+  }
+
+  .about-title {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    grid-column: 1/-1;
+  }
+
+  .about-text {
+    font-size: 1.4rem;
+  }
+
+  .about-desc {
+    display: none;
+  }
+
+  .about-contact {
+    display: none;
+  }
+
+  .mobile-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10rem;
+  }
+
+  .about-contact-info {
+    width: 20rem;
+  }
+
+  .mobile-clinic {
+    width: 327px;
+    height: 337px;
+    object-fit: cover;
+    border-radius: 0.8rem;
+  }
+
+  .mobile-contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #0068c2a8;
+    border-radius: 0 0 0.8rem 0.8rem;
+    transform: translate(0, -16rem);
+    margin-bottom: -15rem;
+    height: 16rem;
+  }
+
+  .mobile-detail {
+    display: flex;
+    gap: 0rem;
+    max-width: 32.7rem;
+  }
+
+  .mobile-detail p {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #fefdfd;
+    margin: 1.55rem 2rem;
+    text-transform: capitalize;
+  }
+
+  .mobile-detail img {
+    width: 3rem;
+    margin-left: 2rem;
+  }
+
+  .mobile-text-about {
+    max-width: 32rem;
+    text-align: left;
+  }
+
+  .mobile-text-about p {
+    font-size: 1.7rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: #01224f;
+  }
+
+  .about-kaci {
+    grid-template-columns: 35rem;
+  }
+
+  .clinique-img {
+    height: 28rem;
+    width: 55rem;
+  }
+
+  .about-desc {
+    margin-left: 5rem;
+  }
+
+  .about-desc-text {
+    max-width: 75rem;
+  }
+
+  .about-container {
+    width: 28rem;
+    height: 28rem;
+  }
+
+  .aside-logo {
+    width: 30%;
+  }
+
+  .dr-kaci-name {
+    font-size: 2.4rem;
+  }
+
+  .cta-aside:visited,
+  .cta-aside:link {
+    padding: 1.2rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .find-us {
+    padding: 0 3.4rem;
+  }
+
+  .section-breaker {
+    display: none;
+  }
+
+  .mob-breaker {
+    width: 100vw;
+    margin: 0;
+    gap: 3rem;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    overflow-x: hidden;
+  }
+
+  .serv-break {
+    grid-row: 1;
+    margin-bottom: 2rem;
+  }
+
+  .section-breaker img {
+    display: inline-block;
+    width: 12rem;
+  }
+
+  .section-breaker h2 {
+    width: 100vw;
+    text-align: left;
+    font-size: 1.8rem;
+  }
+
+  .section-breaker p {
+    width: 90%;
+    text-align: left;
+    font-weight: 200;
+  }
+
+  .cta-mobile {
+    display: inline-block;
+  }
+
+  .cta-breaker {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .patients-review {
+    grid-template-columns: 40rem;
+    justify-items: center;
+    grid-template-rows: 30rem;
+  }
+
+  .reviews-section {
+    display: grid;
+    grid-template-columns: 34rem;
+    padding: 1rem;
+  }
+
+  .patients-title {
+    font-size: 1.7rem;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .patients-text {
+    max-width: 30rem;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .clinic-infos-side {
+    display: grid;
+    grid-template-columns: 50rem;
+    justify-items: center;
+    padding: 2rem;
+  }
+
+  .working-hours {
+    padding: 2rem 3em;
+    width: 100vw;
+    grid-row: 1;
+  }
+
+  .working-hours h4 {
+    letter-spacing: 0.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .service-hours {
+    grid-row: 3;
+  }
+
+  .service-faq .mobile-text {
+    display: inline-block;
+    color: #01224f;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 30rem;
+    margin-top: 5rem;
+  }
+
+  .mobile-text p {
+    margin-bottom: 2rem;
+  }
+
+  .hours {
+    font-size: 1.5rem;
+  }
+
+  .review {
+    font-size: 1.2rem;
+  }
+
+  .review img {
+    width: 25%;
+  }
+
+  .review blockquote {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .form {
+    padding: 5rem 4rem;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 58rem;
+    display: none;
+    gap: 0;
+    justify-items: center;
+  }
+
+  .contact-info {
+    grid-column: 1/-1;
+  }
+
+  .form-logo {
+    align-self: flex-start;
+  }
+
+  .form-logo img {
+    margin: 3rem 0;
+    width: 15rem;
+  }
+
+  .form-logo p {
+    color: #fefdfd;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .form-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #00529a;
+    padding: 1rem;
+  }
+
+  .mobile-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .mobile-form label {
+    color: #fefdfd;
+    max-width: 180px;
+    margin-top: 2rem;
+    align-self: flex-start;
+  }
+
+  .mobile-form input,
+  .mobile-form select {
+    width: 35rem;
+  }
+
+  .mobile-form textarea {
+    width: 37rem;
+  }
+
+  .form-cta {
+    grid-row: 6;
+    font-size: 16px;
+  }
+
+  .form-cta:link,
+  .form-cta:visited {
+    border-radius: 1.4rem;
+    text-align: center;
+    width: 80vw;
+    grid-row: 5;
+    padding: 2rem 3rem;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  .form-container {
+    grid-column: 1/-1;
+  }
+
+  input,
+  select {
+    padding: 0rem 1rem;
+    width: 30rem;
+    height: 6rem;
+  }
+
+  textarea {
+    padding: 2rem;
+    resize: both;
+    width: 30rem;
+    height: 30vh;
+  }
+
+  .contact-form-title {
+    padding: 5rem;
+    width: 70rem;
+  }
+
+  .info-title {
+    font-size: 3rem;
+  }
+
+  .review-title {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    grid-column: 1/2;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    max-width: 32rem;
+  }
+
+  .form-title-desc {
+    font-size: 1.4rem;
+    width: 36rem;
+  }
+
+  .find-us-form {
+    margin-top: 2rem;
+    gap: 3rem;
+  }
+
+  .sickness-reviews {
+    grid-template-columns: 85vw;
+  }
+
+  .sick-select {
+    display: none;
+  }
+
+  .sick-desc {
+    grid-column: 1/-1;
+    grid-row: 2;
+    row-gap: 2rem;
+    max-width: 35rem;
+  }
+
+  .cta-sick {
+    grid-column: -1/1;
+  }
+
+  .sick-desc h2 {
+    grid-column: 2/-1;
+    font-size: 1.5rem;
+  }
+
+  .sick-details p {
+    font-size: 1rem;
+  }
+
+  .sick-desc p {
+    grid-column: 1/-1;
+  }
+
+  .baloon {
+    width: 9rem;
+  }
+
+  .symp {
+    align-items: center;
+    margin-left: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-nav div {
+    margin: 4rem 0;
+    font-size: 1.4rem;
+  }
+
+  .subscribe {
+    display: none;
+  }
+
+  .logo-footer {
+    height: 10rem;
+    margin-left: 2rem;
+  }
+
+  .mobile-sick {
+    text-transform: capitalize;
+    /* display: block; */
+    color: #00529a;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0.9rem 5rem;
+    background-color: #b5cfef;
+    border-radius: 0.8rem;
+    /* max-width: 285px; */
+    max-height: 3rem;
+    justify-self: flex-end;
+    grid-column: 1;
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+  }
+
+  .mobile-contact {
+    display: inline-block;
+  }
+
+  .logo {
+    grid-column: 1/-1;
+  }
+
+  .footer-nav div h3,
+  .footer-nav li {
+    margin: 0 0 1.3rem 2rem;
+  }
+
+  .services-cards {
+    grid-template-columns: 40vw 40vw;
+    row-gap: 0rem;
+    column-gap: 2rem;
+    justify-content: center;
+  }
+
+  .service-card {
+    padding-bottom: 1rem;
+    padding: 1rem 0;
+    margin-left: 0;
+  }
+
+  .service-card img {
+    width: 40vw;
+    height: 20vh;
+  }
+
+  .service-card p {
+    font-size: 1.2rem;
+  }
+
+  .service-card span {
+    font-size: 2.5rem;
+  }
+
+  .service-card a:link,
+  .service-card a:visited {
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  .card-title {
+    margin-bottom: 1rem;
+  }
+
+  .card-title h2 {
+    font-size: 1rem;
+  }
+
+  textarea {
+    max-width: 95%;
+  }
+
+  .hero-main-title h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .detailed-sick {
+    display: none;
+  }
+
+  .mobile-illness-detail {
+    display: flex;
+  }
+
+  .mobile-illness-detail h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 1rem;
+    line-height: 1.5;
+    color: #01224f;
+  }
+
+  .mobile-illness-detail img {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .mobile-illness-detail p,
+  ol,
+  h3,
+  li {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: #01224f;
+    line-height: 1.2;
+    padding: 0 2rem;
+  }
+
+  .mobile-illness-detail ul {
+    margin-bottom: 0;
+  }
+
+  .mobile-illness-detail h3 {
+    font-weight: 700;
+  }
+
+  .faq-sick {
+    grid-template-columns: 90vw;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .faq-title {
+    display: none;
+  }
+
+  .faq-menu-title {
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .faq-menu p {
+    font-size: 1.4rem;
+  }
+
+  .team-image {
+    background-image: url(/assets/img/nurse.png);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .team-desc {
+    background-color: #00529a85;
+    transform: translate(21rem, 7rem);
+    width: 17rem;
+    height: 10rem;
+  }
+
+  .team-desc p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+
+  .mobile-exp {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 90vw;
+  }
+
+  .about-mobile-title {
+    grid-column: 1/-1;
+    margin: 2.5rem 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #01224f;
+  }
+
+  .about-title-text {
+    grid-column: 1/-1;
+    grid-row: 2;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #01224f;
+    margin-bottom: 1.2rem;
+  }
+
+  .about-exp-img {
+    display: flex;
+    grid-column: 1/-1;
+    gap: 2rem;
+  }
+
+  .about-exp-img img {
+    width: 47%;
+    border-radius: 1rem;
+  }
+
+  .exp-num-mobile {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    justify-self: flex-start;
+  }
+
+  .exp-num-mobile img {
+    width: 13%;
+  }
+
+  .exp-text-mob {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #01224f;
+    margin-bottom: 1.2rem;
+  }
+
+  .exp-num-mobile div {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #01224f;
+    margin: 1.2rem 0;
+  }
+
+  .mobile-vid {
+    display: grid;
+  }
+
+  .video-iris {
+    margin-top: 2rem;
+    position: relative;
+    background-image: url(/assets/img/mob-vid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: rem;
+    height: 25.3rem;
+  }
+
+  .kaci-mobile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #03246b;
+    color: #dbe6ee;
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    border-radius: 0 0 0.8rem 0.8rem;
+  }
+
+  .mobile-name {
+    margin-top: 2rem;
+  }
+
+  .mobile-name span {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+  .mobile-info {
+    line-height: 2.5;
+    font-weight: 300;
+    margin-bottom: 4rem;
+  }
+
+  .why-us-text {
+    padding: 2rem;
+  }
+
+  .why-us-text h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+
+  .why-us-item p {
+    font-size: 1rem;
+  }
+
+  .why-us-item img {
+    width: 15%;
+  }
+
+  .mobile-ops {
+    gap: 2rem;
+    display: flex;
+    background-color: #00529a;
+    color: #fefdfd;
+  }
+
+  .op-mobile {
+    width: 50%;
+  }
+
+  .ops-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ops-number p {
+    text-align: center;
+    display: inline-block;
+    font-size: 4rem;
+  }
+
+  .ops-number p:nth-child(2) {
+    font-size: 2rem;
+    padding: 1rem;
+    line-height: 1.4;
+    font-weight: 200;
+  }
+
+  .expertise {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .expertise p {
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2;
+    width: 35rem;
+  }
+
+  .expertise img {
+    width: 100vw;
+  }
+
+  .form-item {
+    grid-template-columns: 80vw;
+  }
+
+  .form-item label {
+    color: #00529a;
+  }
+
+  .form-item div {
+    margin-bottom: 2rem;
+  }
+
+  .about-container-info {
+    display: none;
+  }
+
+  .about-us-contact {
+    grid-template-columns: 34rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+  }
+
+  .contact-form-title {
+    padding: 0rem;
+    width: 80vw;
+  }
+
+  .form-title {
+    color: #00529a;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-info {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .about-contact-info a {
+    font-size: 1.2rem;
+  }
+
+  .form {
+    row-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-mobile label {
+    color: #00529a;
+  }
+
+  .contact-form-mobile input,
+  .contact-form-mobile select {
+    width: 80vw;
+    padding: 2rem 2.3rem;
+  }
+
+  .contact-form-mobile h2 {
+    color: #00529a;
+    font-size: 1.6rem;
+  }
+
+  .desk-map {
+    display: none;
+  }
+
+  .mobile-map {
+    display: block;
+    margin: 3rem 0;
+    transform: translateX(-5rem);
+  }
+
+  .container-serv {
+    display: grid;
+    grid-template-columns: 100vw;
+  }
+
+  .faq-body {
+    background-color: #f3f9fd;
+  }
+
+  .section-team {
+    grid-row: 2;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .video-opht {
+    display: none;
+  }
+}
