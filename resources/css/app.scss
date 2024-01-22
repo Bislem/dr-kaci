@@ -46,3 +46,12 @@
         background-color: #00529A;
     }
 }
+
+
+.custom-select-arrow {
+    appearance: none;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxOCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuMDAwMDUgMS45MDUyN0w5LjAwMDAyIDkuOTA1MjVMMTcgMS45MDUyNyIgc3Ryb2tlPSIjMDA1MjlBIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K');
+    background-repeat: no-repeat;
+    background-position: right 1.4rem center;
+    background-size: 1.3em;
+}

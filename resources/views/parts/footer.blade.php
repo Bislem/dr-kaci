@@ -51,8 +51,9 @@
         </ul>
       </div>
       <div class="subscribe">
-        <label id="sub" for="email">s'abonner a la newsletter</label>
-        <input id="ma" type="email" placeholder="example@hotmail.com" class="footer-input" />
+        <input type="email" id="email"
+        class="bg-slate-50 border text-gray-900 text-lg lg:rounded-full placeholder-[#B5CFEF] mb-3 border-[#B5CFEF] block w-full py-6 px-6"
+        placeholder="example@hotmail.com" required>
         <!-- <label id="welc" for="">Bienvenue dans notre communauté</label> -->
         <a href="javascript:void(0);" class="footer-cta" onclick="myFunction1()">s'abonner</a>
       </div>
