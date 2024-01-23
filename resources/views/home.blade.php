@@ -70,7 +70,7 @@
             </div>
         </div>
     </section>
-    <section class="about-kaci flex flex-col max-w-[1400px] mx-auto px-10 mb-16">
+    <section class="about-kaci flex flex-col max-w-[1400px] mx-auto lg:px-10 mb-16">
         {{-- title  --}}
         <div class="mb-14 px-7">
             <h2 class="about-title w-full text-center mb-10">
