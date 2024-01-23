@@ -136,7 +136,8 @@
   }
 
   .article-cards img {
-    width: 50rem;
+    width: 100% !important;
+    height: auto;
   }
 }
 
@@ -228,21 +229,10 @@
     width: 75rem;
   }
 
-  .article-cards img {
-    width: 40rem;
-  }
-
-  .last-cards {
-    gap: 2rem;
-  }
-
   .last-card {
     width: 40rem;
   }
 
-  .last-cards img {
-    width: 60rem;
-  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -490,10 +480,6 @@
     max-width: 40rem;
   }
 
-  .article-cards img {
-    width: 35rem;
-  }
-
   .rec-article {
     grid-template-columns: 65rem 30rem;
     column-gap: 4rem;
@@ -503,25 +489,8 @@
     width: 65rem;
   }
 
-  .article-cards img {
-    width: 40rem;
-  }
-
-  .article-card {
-    width: 25rem;
-  }
-
-  .last-cards {
-    gap: 8rem;
-  }
-
   .last-card {
     width: 25rem;
-  }
-
-  .last-cards img {
-    width: 30rem;
-    height: 15rem;
   }
 }
 

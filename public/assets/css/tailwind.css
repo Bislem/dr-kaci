@@ -568,6 +568,10 @@ video {
   margin: 1.25rem !important;
 }
 
+.m-0 {
+  margin: 0px !important;
+}
+
 .mx-2 {
   margin-left: 0.5rem !important;
   margin-right: 0.5rem !important;
@@ -601,6 +605,11 @@ video {
 .my-5 {
   margin-top: 1.25rem !important;
   margin-bottom: 1.25rem !important;
+}
+
+.mx-1 {
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
 }
 
 .mb-10 {
@@ -665,6 +674,18 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem !important;
+}
+
+.mr-10 {
+  margin-right: 2.5rem !important;
+}
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+
+.ms-5 {
+  margin-inline-start: 1.25rem !important;
 }
 
 .block {
@@ -755,6 +776,10 @@ video {
 
 .w-\[30px\] {
   width: 30px !important;
+}
+
+.w-\[60\%\] {
+  width: 60% !important;
 }
 
 .max-w-3xl {
@@ -1176,8 +1201,22 @@ html {
   scroll-behavior: smooth;
 }
 
+.\*\:mx-auto > * {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.\*\:\!mx-auto > * {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .\*\:mr-auto > * {
   margin-right: auto !important;
+}
+
+.\*\:\!me-auto > * {
+  margin-inline-end: auto !important;
 }
 
 .\*\:flex > * {
@@ -1186,6 +1225,18 @@ html {
 
 .\*\:w-\[40\%\] > * {
   width: 40% !important;
+}
+
+.\*\:w-\[45\%\] > * {
+  width: 45% !important;
+}
+
+.\*\:w-\[46\%\] > * {
+  width: 46% !important;
+}
+
+.\*\:w-\[50\%\] > * {
+  width: 50% !important;
 }
 
 .\*\:min-w-96 > * {
@@ -1200,9 +1251,23 @@ html {
   align-items: center !important;
 }
 
+.\*\:p-1 > * {
+  padding: 0.25rem !important;
+}
+
 .\*\:px-3 > * {
   padding-left: 0.75rem !important;
   padding-right: 0.75rem !important;
+}
+
+.\*\:\!px-10 > * {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.\*\:\!px-4 > * {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .\*\:text-left > * {
@@ -1288,6 +1353,14 @@ html {
     margin-top: 4rem !important;
   }
 
+  .lg\:mr-10 {
+    margin-right: 2.5rem !important;
+  }
+
+  .lg\:ms-10 {
+    margin-inline-start: 2.5rem !important;
+  }
+
   .lg\:block {
     display: block !important;
   }
@@ -1342,6 +1415,10 @@ html {
 
   .lg\:w-full {
     width: 100% !important;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60% !important;
   }
 
   .lg\:max-w-6xl {
@@ -1471,6 +1548,22 @@ html {
 
   .lg\:\*\:w-1\/4 > * {
     width: 25% !important;
+  }
+
+  .lg\:\*\:w-\[31\%\] > * {
+    width: 31% !important;
+  }
+
+  .lg\:\*\:w-\[30\%\] > * {
+    width: 30% !important;
+  }
+
+  .lg\:\*\:w-\[32\%\] > * {
+    width: 32% !important;
+  }
+
+  .lg\:\*\:w-\[33\%\] > * {
+    width: 33% !important;
   }
 
   .lg\:\*\:text-3xl > * {

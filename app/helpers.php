@@ -1259,23 +1259,23 @@ if (!function_exists('getStaticPostsList')) {
   {
     return [
       (object)[
-        'id' => 'article1',
-        'title' => 'Comprendre la myopie : causes, symptômes et traitements',
-      ],
-      (object)[
         'id' => 'article2',
-        'title' => 'Préserver sa vue au quotidien : Les causes de la baisse de la vue et comment l\'éviter',
-      ],
-      (object)[
-        'id' => 'article3',
         'title' => 'Quand consulter un ophtalmologue : Les signes qui ne trompent pas',
       ],
       (object)[
+        'id' => 'article3',
+        'title' => 'Préserver sa vue au quotidien : Les causes de la baisse de la vue et comment l\'éviter',
+      ],
+      (object)[
         'id' => 'article4',
-        'title' => 'La routine des jeunes et ses conséquences sur la vue : Protéger les yeux pour une vision durable',
+        'title' => 'Comprendre la myopie : causes, symptômes et traitements',
       ],
       (object)[
         'id' => 'article5',
+        'title' => 'La routine des jeunes et ses conséquences sur la vue : Protéger les yeux pour une vision durable',
+      ],
+      (object)[
+        'id' => 'article1',
         'title' => 'Les Aliments Essentiels pour une Bonne Vue',
       ],
     ];
