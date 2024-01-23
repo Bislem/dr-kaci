@@ -23,7 +23,7 @@
   .exp {
     justify-content: center;
     grid-template-columns: 40vw 40vw;
-    gap: 10rem;
+    gap: 5rem;
     padding: 6rem 5rem;
   }
 
@@ -157,7 +157,7 @@
 
   .exp {
     grid-template-columns: 60rem 60rem;
-    gap: 15rem;
+    gap: 6rem;
     padding: 6rem 5rem;
     margin-left: 5rem;
   }
@@ -198,11 +198,6 @@
 
   .why-us img {
     margin-left: 3rem;
-    width: 35%;
-  }
-
-  .why-us-item img {
-    width: 10%;
   }
 
   .expertise {
@@ -468,7 +463,6 @@
 
   .why-us img {
     margin-left: 3rem;
-    width: 30%;
   }
 
   .why-us h1 {
@@ -680,8 +674,8 @@
   }
 
   .exp-num img {
-    width: 5rem;
-    height: 3rem;
+    width: auto;
+    height: 5rem;
   }
 
   .exp-img {
@@ -746,6 +740,10 @@
     background-color: #fefdfd;
   }
 
+  .service-item img{
+    height: 40px;
+    width: auto;
+  }
   .circle {
     height: 4rem;
     width: 4rem;
@@ -1282,10 +1280,6 @@
 
   .why-us-item p {
     font-size: 1rem;
-  }
-
-  .why-us-item img {
-    width: 15%;
   }
 
   .mobile-ops {

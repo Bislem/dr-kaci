@@ -52,9 +52,9 @@
                     de votre vision.
                 </p>
                 <div class="exp-num">
-                    <img src="/assets/img/SVG/Icon2.svg" alt="" />
-                    <p>30 Ans Expérience</p>
-                    <img src="/assets/img/SVG/healtj.svg" alt="" />
+                    <img class="me-10" src="/assets/img/SVG/Icon2.svg" alt="" />
+                    <p class="me-10">30 Ans Expérience</p>
+                    <img class="me-10" src="/assets/img/SVG/healtj.svg" alt="" />
                     <p>+198 000 Patients traités</p>
                 </div>
                 <img src="/assets/img/patient-with-doctor.png" alt="" class="exp-img" />
@@ -90,11 +90,11 @@
             </div>
             <div class="why-us-text">
                 <h1>pourquoi choisir <span>dr kaci</span> ?</h1>
-                <div class="service-item why-us-item">
+                <div class="service-item why-us-item w-full">
                     <img src="/assets/img/SVG/cat.svg" alt="" />
                     <p class="item-text">chirurgie occulaire avancées</p>
                 </div>
-                <div class="service-item why-us-item">
+                <div class="service-item why-us-item w-full">
                     <img src="/assets/img/SVG/expertIcon.png" alt="" />
                     <p class="item-text">expertise spécialisée en ophtalmologie</p>
                 </div>
@@ -153,7 +153,7 @@
                     <p class="item-text">chirurgie occulaire avancées</p>
                 </div>
                 <div class="service-item why-us-item">
-                    <img src="/assets/img/SVG/expertIcon.png" alt="" class="why-us-img" />
+                    <img class="" src="/assets/img/SVG/expertIcon.png" alt="" class="why-us-img" />
                     <p class="item-text">expertise spécialisée en ophtalmologie</p>
                 </div>
             </div>
@@ -163,16 +163,30 @@
             </div>
         </div>
     </section>
-    <div class="section-breaker mob-breaker">
-        <img src="/assets/img/SVG/Layer 3.svg" alt="" />
+
+
+    <div class="section-breaker w-full h-fit flex flex-col lg:hidden justify-start items-start py-12 px-10">
+        <img src="/assets/img/SVG/Layer 3.svg" class="mb-4" alt="" />
+        <h2 class="mb-4">le choix clair pour votre vue</h2>
+        <p class="mb-8 text-[12px]">
+            Notre expertise est là pour vous, n'hesitez pas à nous contacter
+            si besoin
+        </p>
+        <div class="cta-breaker flex flex-row items-center justify-evenly w-full *:text-xl">
+            <a href="#contact" class="cta-aside flex-1 px-2 py-4 text-center">contactez-nous</a>
+            <a href="/about.html" class="cta-aside cta-mobile flex-1 px-2 py-4 text-center">à propos de
+                nous</a>
+        </div>
+    </div>
+
+    <div class="section-breaker hidden lg:flex">
         <h2>le choix clair pour votre vue</h2>
         <p>
             Notre expertise est là pour vous, n'hesitez pas à nous contacter si
             besoin
         </p>
         <div class="cta-breaker">
-            <a href="/contact.html" class="cta-aside">contactez-nous</a>
-            <a href="/about.html" class="cta-aside cta-mobile">à propos de nous</a>
+            <a href="/about#contact" class="cta-aside">contactez-nous</a>
         </div>
     </div>
     <div class="expertise">
@@ -182,59 +196,12 @@
             oculaires complets dispensés par un ophtalmologiste qualifié
         </p>
     </div>
-    <div class="form-container">
-        <div class="form">
-            <h2 id="cont-title" class="form-title">Laissez un commentaire</h2>
-            <form action="https://formsubmit.co/salim.loubar@hotmail.com" method="POST" class="form-item"
-                id="form-cont" target="_blank">
-                <div class="name">
-                    <label for="name">nom & prénom</label>
-                    <input type="text" name="name" id="name" placeholder="Entrez votre nom et prénom"
-                        required />
-                </div>
-                <div class="tel">
-                    <label for="tel">n° téléphone</label>
-                    <input type="text" name="tel" id="tel" placeholder="Entrez votre N°téléphone"
-                        required />
-                </div>
-                <div class="mail">
-                    <label for="mail">Email</label>
-                    <input type="text" name="mail" id="mail" placeholder="Entrez votre adresse e-mail"
-                        required />
-                </div>
-                <div class="service-select">
-                    <label for="services">service</label>
-                    <select name="services" id="services" required>
-                        <option class="choice" value="" disabled selected hidden>
-                            Choisissez un service...
-                        </option>
-                        <option value="angiographie">angiographie</option>
-                        <option value="champ visuel">champ visuel</option>
-                        <option value="chirurgie des strabismes">
-                            chirurgie des strabismes
-                        </option>
-                        <option value="chirurgie de la cataracte">
-                            chirurgie de la cataracte
-                        </option>
-                        <option value="chirurgie des voies lacrymales">
-                            chirurgie des voies lacrymales
-                        </option>
-                        <option value="echogaphie A">echogaphie A</option>
-                        <option value="echographie B">echographie B</option>
-                        <option value="laser argon">laser argon</option>
-                        <option value="laser slt">laser slt</option>
-                        <option value="laser yag">laser yag</option>
-                        <option value="oct angiographie">oct angiographie</option>
-                        <option value="tomographie (oct)">tomographie (oct)</option>
-                    </select>
-                </div>
-                <div class="message">
-                    <label for="message">message</label>
-                    <textarea name="message" id="message" cols="70" rows="8" placeholder="Inserez votre message" required></textarea>
-                </div>
-                <input type="button" name="" id="btnSubmit" value="Confirmer le rendez-vous"
-                    class="form-cta" />
-            </form>
+
+
+    <section id="contact" class="flex flex-col w-screen p-5 lg:p-4 my-16">
+        <h3 class="text-[#021B50] text-center font-semibold text-4xl mb-14">Nous Contacter</h3>
+        <div class="max-w-[800px] mx-auto w-full">
+            @include('components.contact-form-white')
         </div>
-    </div>
+    </section>
 @endsection

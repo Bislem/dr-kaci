@@ -1260,8 +1260,14 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 10rem;
   color: #01224f;
+}
+
+.exp-num img,
+.about-welcome img,
+.service-item img {
+  width: auto !important;
+  height: 40px !important;
 }
 
 .exp-num p {
