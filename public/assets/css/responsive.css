@@ -1079,6 +1079,7 @@
   .footer-nav li {
     margin: 0 0 1.3rem 2rem;
   }
+
   
   .card-title {
     margin-bottom: 1rem;
@@ -1091,10 +1092,6 @@
   .hero-main-title h3 {
     font-size: 1.2rem;
     margin: 0;
-  }
-
-  .detailed-sick {
-    display: none;
   }
 
   .mobile-illness-detail {
@@ -1155,17 +1152,9 @@
 
   .team-image {
     background-image: url(/assets/img/nurse.png);
-    height: 20rem;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-  }
-
-  .team-desc {
-    background-color: #00529a85;
-    transform: translate(21rem, 7rem);
-    width: 17rem;
-    height: 10rem;
   }
 
   .team-desc p {
@@ -1427,10 +1416,6 @@
 
   .faq-body {
     background-color: #f3f9fd;
-  }
-
-  .section-team {
-    grid-row: 2;
   }
 
   .overlay {

@@ -1049,9 +1049,7 @@ textarea {
 }
 
 .detailed-sick {
-  padding: 5rem 30rem 10rem 20rem;
   display: flex;
-  gap: 10rem;
   flex-direction: row;
   align-items: flex-start;
 }
@@ -1080,14 +1078,14 @@ textarea {
   border-radius: 50%;
 }
 
-.sick-img {
+/* .sick-img {
   width: initial;
   max-width: none;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   height: inherit;
-}
+} */
 
 .info-sick h1 {
   font-size: 5rem;
@@ -1208,12 +1206,7 @@ textarea {
   gap: 1rem;
 }
 
-.section-team {
-  position: relative;
-}
-
 .team-image {
-  height: 65rem;
   background-image: url(/assets/img/nurse-large.png);
 }
 
@@ -1221,16 +1214,12 @@ textarea {
   display: flex;
   background-color: #00529a;
   padding: 2rem;
-  width: 57rem;
-  height: 37.2rem;
   text-align: left;
   align-items: center;
-  transform: translate(100rem, 15em);
 }
 
 .team-desc p {
   color: #f0f5fc;
-  font-size: 3rem;
   font-weight: 500;
 }
 
