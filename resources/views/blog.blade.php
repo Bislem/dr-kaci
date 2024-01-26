@@ -18,12 +18,12 @@
             </div>
             <div class="article-cards flex-1 hidden lg:block">
                 <div class="article-card">
-                    <img src="assets/img/blog-pics/art1.jpg" alt="" />
+                    <div class="h-32 sm:h-48 md:h-56 lg:h-64 bg-cover" style="background-image: url('assets/img/blog-pics/art1.jpg')"></div>
                     <h2>Les Aliments Essentiels pour une Bonne Vue</h2>
                     <a href="/blog/article1">lire plus</a>
                 </div>
                 <div class="article-card">
-                    <img src="assets/img/blog-pics/art2.jpg" alt="" />
+                    <div class="h-32 sm:h-48 md:h-56 lg:h-64 bg-cover" style="background-image: url('assets/img/blog-pics/art2.jpg')"></div>
                     <h2>
                         Quand consulter un ophtalmologue : Les signes qui ne trompent pas
                     </h2>
@@ -32,11 +32,11 @@
             </div>
         </div>
     </section>
-    <section class="last-articles px-10">
+    <section class="last-articles px-4 md:px-10">
         <h2 class="about-title last-title">derniers articles</h2>
         <div class="last-cards flex flex-row flex-wrap lg:*:w-[33%] *:w-[50%] *:!px-4">
             <div class="article-card">
-                <img src="assets/img/blog-pics/myope.jpg" alt="" />
+                <div class="h-32 sm:h-48 md:h-56 lg:h-64 bg-cover bg-no-repeat" style="background-image: url('assets/img/blog-pics/myope.jpg')"></div>
                 <h2>Comprendre la myopie : causes, symptômes et traitements</h2>
                 <p>
                     La myopie est un problème de vision courant qui touche de
@@ -46,7 +46,7 @@
                 <a href="/blog/article2">lire plus</a>
             </div>
             <div class="article-card">
-                <img src="assets/img/blog-pics/art.jpg" alt="" />
+                <div class="h-32 sm:h-48 md:h-56 lg:h-64 bg-cover" style="background-image: url('assets/img/blog-pics/art.jpg')"></div>
                 <h2>
                     La routine des jeunes et ses conséquences sur la vue : Protéger
                     les yeux pour une vision durable
@@ -60,7 +60,7 @@
                 <a href="/blog/article5">lire plus</a>
             </div>
             <div class="article-card">
-                <img src="assets/img/blog-pics/art1.jpg" alt="" />
+                <div class="h-32 sm:h-48 md:h-56 lg:h-64 bg-cover" style="background-image: url('assets/img/blog-pics/art1.jpg')"></div>
                 <h2>Les Aliments Essentiels pour une Bonne Vue</h2>
                 <p>
                     vision saine est un élément crucial de notre bien-être global,
@@ -71,7 +71,7 @@
                 <a href="/blog/article1">lire plus</a>
             </div>
             <div class="article-card">
-                <img src="assets/img/blog-pics/art3.jpg" alt="" />
+                <div class="h-32 sm:h-48 md:h-56 lg:h-64 bg-cover" style="background-image: url('assets/img/blog-pics/art3.jpg')"></div>
                 <h2>
                     Préserver sa vue au quotidien : Les causes de la baisse de la
                     vue et comment l'éviter
@@ -85,7 +85,7 @@
                 <a href="/blog/article3">lire plus</a>
             </div>
             <div class="article-card">
-                <img src="assets/img/blog-pics/art2.jpg" alt="" />
+                <div class="h-32 sm:h-48 md:h-56 lg:h-64 bg-cover" style="background-image: url('assets/img/blog-pics/art2.jpg')"></div>
                 <h2>
                     Quand consulter un ophtalmologue : Les signes qui ne trompent
                     pas
