@@ -50,7 +50,7 @@
       </div>
       <div class="contact-num">
         <a href="#" class="number">+213 550 21 12 10</a>
-        <img src="assets/img/SVG/icon _phonequestion-mark-icon.png" alt="" />
+        <img height="35" width="35" src="assets/img/icon-phone.png" alt="" />
       </div>
     </nav>
   </header>
