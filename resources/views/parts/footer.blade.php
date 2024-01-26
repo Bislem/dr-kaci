@@ -1,7 +1,7 @@
 <footer>
     <section class="footer-nav">
       <div class="logo">
-        <img src="/assets/img/SVG/newAsset 4 1.svg" alt="Dr-kaci-logo" class="logo-footer" />
+        <img src="/assets/img/footer-logo.png" alt="Dr-kaci-logo" class="logo-footer lg:w-48 md:w-36 w-32 h-auto" />
       </div>
       <div class="menu">
         <h3>menu</h3>
