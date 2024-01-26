@@ -28,11 +28,13 @@
             </h3>
             <div class="flex flex-row flex-wrap">
                 @foreach ($data->faq as $f)
-                    <div class="faq-card lg:w-[46%] w-[95%] mx-auto my-5">
-                        <div class="faq-card-img">
-                            <button type="button" class="faq-btn">
-                                <img src="/assets/img/SVG/e.svg" alt="" />
-                                {{ $f['question'] }}
+                    <div class="faq-card lg:w-[46%] w-[95%] mx-auto items-center my-5 py-5">
+                        <div class="faq-card-img items-center">
+                            <button type="button" class="faq-btn w-full flex flex-row items-center">
+                                <img src="/assets/img/qst-mark-icon.png" alt="" class="self-start"/>
+                                <span class="text-left">
+                                    {{ $f['question'] }}
+                                </span>
                             </button>
                             @php
                                 echo html_entity_decode($f['answer']);

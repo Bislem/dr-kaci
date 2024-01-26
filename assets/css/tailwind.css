@@ -854,6 +854,10 @@ video {
   justify-items: center !important;
 }
 
+.self-start {
+  align-self: flex-start !important;
+}
+
 .self-end {
   align-self: flex-end !important;
 }
@@ -1049,6 +1053,11 @@ video {
   padding-bottom: 0px !important;
 }
 
+.py-5 {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+}
+
 .pe-7 {
   padding-inline-end: 1.75rem !important;
 }
@@ -1059,6 +1068,10 @@ video {
 
 .pt-0 {
   padding-top: 0px !important;
+}
+
+.text-left {
+  text-align: left !important;
 }
 
 .text-center {
