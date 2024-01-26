@@ -52,10 +52,9 @@
       </div>
       <div class="subscribe">
         <input type="email" id="email"
-        class="bg-slate-50 border text-gray-900 text-lg lg:rounded-full placeholder-[#B5CFEF] mb-3 border-[#B5CFEF] block w-full py-6 px-6"
+        class="bg-slate-50 border text-gray-900 text-lg h-[50px] lg:rounded-full placeholder-[#B5CFEF] mb-3 border-[#B5CFEF] block w-full py-6 px-6"
         placeholder="example@hotmail.com" required>
-        <!-- <label id="welc" for="">Bienvenue dans notre communauté</label> -->
-        <a href="javascript:void(0);" class="footer-cta" onclick="myFunction1()">s'abonner</a>
+        <a href="javascript:void(0);" class="footer-cta h-[50px] text-xl leading-[50px] py-0" onclick="myFunction1()">s'abonner</a>
       </div>
       <div class="mobile-contact">
         <h3>contact</h3>

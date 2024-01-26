@@ -7,8 +7,10 @@
                     <h2>{{ $service->title }}</h2>
                     <span class="text-[20px] lg:text-[40px]">{{ $loop->index < 9 ? '0' : '' }}{{ $loop->index + 1 }}</span>
                 </div>
-                <img class="w-full min-h-60 object-cover rounded-xl lg:rounded max-w-none mb-8"
-                    src="{{ $service->poster ? $service->poster : '' }}" alt="Dr Kaci {{ $service->title }}" />
+                <a class="self-end lg:self-start mt-4" href="/services/{{ $service->id }}">
+                    <img class="w-full min-h-60 object-cover rounded-xl lg:rounded max-w-none mb-8"
+                        src="{{ $service->poster ? $service->poster : '' }}" alt="Dr Kaci {{ $service->title }}" />
+                </a>
                 <p class="mb-auto">
                     {{ $service->shortDescription ? (strlen($service->shortDescription) > 90 ? substr($service->shortDescription, 0, 90) . '...' : $service->shortDescription) : '' }}
                 </p>
