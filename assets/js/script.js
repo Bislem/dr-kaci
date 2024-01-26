@@ -49,6 +49,9 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function () {
     if (this.textContent === "myopie") {
+      resetColors();
+      this.style.color = '#0068c2';
+      this.style.fontWeight = 'bold';
       my.style.display = "grid";
       as.style.display = "none";
       cat.style.display = "none";
@@ -56,6 +59,9 @@ for (i = 0; i < coll.length; i++) {
       gl.style.display = "none";
       console.log("bye");
     } else if (this.textContent === "astigmatisme") {
+      resetColors();
+      this.style.color = '#0068c2';
+      this.style.fontWeight = 'bold';
       my.style.display = "none";
       as.style.display = "grid";
       cat.style.display = "none";
@@ -63,6 +69,9 @@ for (i = 0; i < coll.length; i++) {
       gl.style.display = "none";
       console.log("bye");
     } else if (this.textContent === "cataracte") {
+      resetColors();
+      this.style.color = '#0068c2';
+      this.style.fontWeight = 'bold';
       my.style.display = "none";
       as.style.display = "none";
       cat.style.display = "grid";
@@ -70,6 +79,9 @@ for (i = 0; i < coll.length; i++) {
       gl.style.display = "none";
       console.log("bye");
     } else if (this.textContent === "décollement de la rétine") {
+      resetColors();
+      this.style.color = '#0068c2';
+      this.style.fontWeight = 'bold';
       my.style.display = "none";
       as.style.display = "none";
       cat.style.display = "none";
@@ -77,6 +89,9 @@ for (i = 0; i < coll.length; i++) {
       gl.style.display = "none";
       console.log("bye");
     } else if (this.textContent === "glaucoma") {
+      resetColors();
+      this.style.color = '#0068c2';
+      this.style.fontWeight = 'bold';
       my.style.display = "none";
       as.style.display = "none";
       cat.style.display = "none";
@@ -85,6 +100,13 @@ for (i = 0; i < coll.length; i++) {
       console.log("bye");
     }
   });
+}
+
+function resetColors() {
+  for (i = 0; i < coll.length; i++) {
+    coll[i].style.color = '#01224f';
+    coll[i].style.fontWeight = 'normal';
+  }
 }
 document.querySelectorAll(".nav-items").forEach((link) => {
   if (link.href === window.location.href) {

@@ -1,12 +1,12 @@
 <section class="sickness-reviews flex flex-col w-full">
-    <h1 class="review-title px-8">
+    <h1 class="review-title px-8 max-w-3xl lg:max-w-7xl mx-auto">
         Maladies et troubles oculaires courants:
         <span>Causes, symptômes</span>
     </h1>
     <div class="flex lg:flex-row flex-col justify-center">
-        <div class="lg:flex hidden flex-col mr-14">
+        <div class="lg:flex hidden flex-col mr-14 w-[25%]">
             <div class="sick-select">
-                <a href="javascript:void(0);" class="sickness">myopie</a>
+                <a href="javascript:void(0);" class="sickness" style="color: #0068c2;font-weight: bold;">myopie</a>
                 <a href="javascript:void(0);" class="sickness">astigmatisme</a>
                 <a href="javascript:void(0);" class="sickness">cataracte</a>
                 <a href="javascript:void(0);" class="sickness">décollement de la rétine</a>
